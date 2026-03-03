@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* light blue */
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Main Sections */
+main {
+  margin-top: 30px;
+}
+
+section {
+  background-color: #e6f2ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+section h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
