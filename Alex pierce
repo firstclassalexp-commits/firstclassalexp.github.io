@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Global Fare Depot</title>
+  <meta name="description" content="Global Fare Depot offers exclusive wholesale flight fares for travel agents. Access competitive prices, worldwide routes, and 24/7 support to serve your clients better.">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <img src="logo.png" alt="Global Fare Depot Logo" class="logo" />
+      <p>Wholesale Flight Fares for Travel Agents</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Exclusive Flight Deals Worldwide</h2>
+      <p>Access unbeatable wholesale prices and top‑tier support.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+        <h3>Low Fares</h3>
+        <p>Unlock the best wholesale flight prices anywhere.</p>
+      </div>
+      <div class="feature">
+        <h3>Global Routes</h3>
+        <p>Flights covering destinations across the globe.</p>
+      </div>
+      <div class="feature">
+        <h3>Fast Support</h3>
+        <p>24/7 help for travel agents and partners.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Fill out the form and we’ll reach out with wholesale options.</p>
+      <form action="https://formspree.io/f/mnqxyzab" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <input type="text" name="agency" placeholder="Agency Name" required />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Global Fare Depot. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+/* Body & Text */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  background: #1e3a8a; /* Primary blue */
+  color: white;
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  max-height: 60px;
+}
+
+/* Hero Section */
+.hero {
+  background: #eef2fb; /* Light blue */
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.hero .btn {
+  background: #f39c12; /* Accent orange */
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 10px;
+  background: #fff;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Contact Section */
+.contact {
+  background: #eef2fb;
+  padding: 40px 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #1e3a8a;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
